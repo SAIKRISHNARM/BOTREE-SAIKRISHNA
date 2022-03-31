@@ -1,0 +1,9 @@
+roundservice:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8087,localhost:8086
+    ServerListRefreshInterval: 15000
+    
+server:
+  port: 8888
